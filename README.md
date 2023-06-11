@@ -8,7 +8,7 @@ Data repository for Carbohydrate-Specific Nuclear Magnetic Resonance Chemical Sh
 
 ## Datasets:
 
-A summary of the available datasets.
+Curated datasets, click the link to download. 
 
 ### 1. Collected and simulated carbohydrate datasets: 
 
