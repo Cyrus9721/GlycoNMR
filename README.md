@@ -4,7 +4,7 @@
 
 # GlycoNMR
 
-Data repository for the manuscripts titled: "Carbohydrate-Specific Nuclear Magnetic Resonance Chemical Shift Prediction" (Chen et al. 2023). This work was supported by GlycoMIP, a National Science Foundation Materials Innovation Platform funded through Cooperative Agreement DMR-1933525.
+Data repository for the manuscripts titled: "GlycoNMR: A Carbohydrate-Specific NMR Chemical Shift Dataset for Machine Learning Research" (Chen et al. 2023). This work was supported by GlycoMIP, a National Science Foundation Materials Innovation Platform funded through Cooperative Agreement DMR-1933525.
 
 ![GlycoMIP_TypeTest_Graident](https://github.com/Cyrus9721/GlycoNMR/assets/67677231/fba19d47-999c-4c00-9d8c-09dee36035c7)
 
