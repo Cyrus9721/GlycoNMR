@@ -17,7 +17,7 @@ The two curated datasets discussed in the paper, click the link to download each
 
 The raw datasets in format of Protein Data Bank (PDB) 3D coordinate structure files with corresponding NMR shift files. Designed for glycoscience researchers with standard format for experimental files.
 
-This raw data is difficult and risky to use as is in machine learning research, as we have done substantial curation. Please instead use the downloads "2. Processed carbohydrate datasets" below. 
+This raw data is difficult and risky to use as is in machine learning research, as we have done substantial curation after obtaining this raw data. For ML pipelines, please instead use the downloads "2. Processed carbohydrate datasets" below. We have just provided this raw uncurated data for completion and openness.
 
 All raw data was accessible through publicly available sources that allowed open use as long as proper citation was given.
 
