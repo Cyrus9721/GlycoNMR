@@ -80,3 +80,12 @@ NMR_prediction = NMR_prediction(num_epoch = num_epoch, lr = lr)
 NMR_prediction.train(g, features, labels, masks, model)
 
 ```
+# Next Steps in Improving the Datasets
+
+Current prediction and data categories relative to important next steps:
+
+<p align='center'>
+  <img width='50%' src='RoadMapFigure.png' />
+</p>
+
+![RoadMapFigure](https://github.com/Cyrus9721/GlycoNMR/assets/67677231/db833beb-c5b8-4657-8e6e-b5f7119dbcc9)
