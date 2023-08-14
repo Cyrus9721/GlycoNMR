@@ -4,15 +4,15 @@
 
 # GlycoNMR
 
-Data repository for Carbohydrate-Specific Nuclear Magnetic Resonance Chemical Shift Prediction.
+Data repository for the manuscripts titled: Carbohydrate-Specific Nuclear Magnetic Resonance Chemical Shift Prediction (2023).
 
 ## Datasets:
 
-Curated datasets, click the link to download. 
+The two curated datasets discussed in the paper, click the link to download each one. 
 
 ### 1. Collected and simulated carbohydrate datasets: 
 
-Datasets in format of Protein Data Bank (PDB) with corresponding NMR shift files. Designed for glycoscience researchers. 
+The raw datasets in format of Protein Data Bank (PDB) with corresponding NMR shift files. Designed for glycoscience researchers. 
 
 - GODESS can be downloaded [here](https://drive.google.com/file/d/15qIixe-irZyJKzvuoINuK1-d53nC8Jyh/view?usp=sharing). <br />
 - Glycoscience.DB can be downloaded [here](https://drive.google.com/file/d/1z6OMzvvALq8rOZBWAW5C9yBr_UBQ__ZT/view?usp=sharing). <br />
