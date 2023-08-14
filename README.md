@@ -15,7 +15,7 @@ The two curated datasets discussed in the paper, click the link to download each
 
 ### 1. Collected and simulated carbohydrate datasets (uncurated, before ML pipeline): 
 
-The raw datasets in format of Protein Data Bank (PDB) with corresponding NMR shift files. Designed for glycoscience researchers.
+The raw datasets in format of Protein Data Bank (PDB) 3D coordinate structure files with corresponding NMR shift files. Designed for glycoscience researchers.
 
 This raw data is difficult and risky to use as is in machine learning research, as we have done substantial curation. Please instead use the downloads "2. Processed carbohydrate datasets" below. 
 
