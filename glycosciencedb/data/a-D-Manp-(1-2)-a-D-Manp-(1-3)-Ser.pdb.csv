@@ -1,0 +1,56 @@
+Atom,Atom_Num,Atom_Type,Monosaccharide_belong,residual,x,y,z,atoms_simplify,temperature_f,temperature_label,labels,bound_AB,fischer_projection_DL,origin_mono,reformulated_standard_mono,carbon_number_PF
+HETATM,1,C3,Missing monosaccharide,3,-22.414,-3.236,3.427,C,303.0,1,-1.0,missing_a_b,missing_L_D,missing_mono,missing_refornulated_mono,missing_p_f
+HETATM,2,C2,Missing monosaccharide,3,-21.673,-2.77,4.658,C,303.0,1,-1.0,missing_a_b,missing_L_D,missing_mono,missing_refornulated_mono,missing_p_f
+HETATM,3,C1,Missing monosaccharide,3,-20.537,-3.749,5.044,C,303.0,1,-1.0,missing_a_b,missing_L_D,missing_mono,missing_refornulated_mono,missing_p_f
+HETATM,4,N1,Missing monosaccharide,3,-22.59,-2.571,5.776,N,303.0,1,-1.0,missing_a_b,missing_L_D,missing_mono,missing_refornulated_mono,missing_p_f
+HETATM,5,O1,Missing monosaccharide,3,-23.633,-3.409,3.426,O,303.0,1,-1.0,missing_a_b,missing_L_D,missing_mono,missing_refornulated_mono,missing_p_f
+HETATM,6,O1,MAN,1,-19.235,-3.163,4.936,O,303.0,1,-1.0,a,d,manp,man,P
+HETATM,7,H4,Missing monosaccharide,3,-21.222,-1.792,4.409,H,303.0,1,-1.0,missing_a_b,missing_L_D,missing_mono,missing_refornulated_mono,missing_p_f
+HETATM,8,H5,Missing monosaccharide,3,-20.679,-4.093,6.088,H,303.0,1,-1.0,missing_a_b,missing_L_D,missing_mono,missing_refornulated_mono,missing_p_f
+HETATM,9,H6,Missing monosaccharide,3,-20.579,-4.672,4.433,H,303.0,1,-1.0,missing_a_b,missing_L_D,missing_mono,missing_refornulated_mono,missing_p_f
+HETATM,10,H1,Missing monosaccharide,3,-21.805,-3.411,2.54,H,303.0,1,-1.0,missing_a_b,missing_L_D,missing_mono,missing_refornulated_mono,missing_p_f
+HETATM,11,H2,Missing monosaccharide,3,-23.652,-2.748,5.685,H,303.0,1,-1.0,missing_a_b,missing_L_D,missing_mono,missing_refornulated_mono,missing_p_f
+HETATM,12,H3,Missing monosaccharide,3,-22.248,-2.238,6.745,H,303.0,1,-1.0,missing_a_b,missing_L_D,missing_mono,missing_refornulated_mono,missing_p_f
+HETATM,13,C1,MAN,1,-18.132,-4.054,4.836,C,303.0,1,99.73,a,d,manp,man,P
+HETATM,14,C2,MAN,1,-17.907,-4.951,6.049,C,303.0,1,79.07,a,d,manp,man,P
+HETATM,15,C3,MAN,1,-17.466,-4.161,7.269,C,303.0,1,70.8,a,d,manp,man,P
+HETATM,16,C4,MAN,1,-16.301,-3.262,6.925,C,303.0,1,67.72,a,d,manp,man,P
+HETATM,17,C5,MAN,1,-16.654,-2.395,5.717,C,303.0,1,73.98,a,d,manp,man,P
+HETATM,18,C6,MAN,1,-15.555,-1.463,5.257,C,303.0,1,61.81,a,d,manp,man,P
+HETATM,19,OH3,MAN,1,-17.063,-5.082,8.291,O,303.0,1,-1.0,a,d,manp,man,P
+HETATM,20,OH4,MAN,1,-15.981,-2.405,8.01,O,303.0,1,-1.0,a,d,manp,man,P
+HETATM,21,O5,MAN,1,-16.948,-3.275,4.62,O,303.0,1,-1.0,a,d,manp,man,P
+HETATM,22,OH6,MAN,1,-14.377,-2.168,4.899,O,303.0,1,-1.0,a,d,manp,man,P
+HETATM,23,HO3,MAN,1,-17.852,-4.981,9.037,H,303.0,1,-1.0,a,d,manp,man,P
+HETATM,24,HO4,MAN,1,-15.171,-2.841,8.595,H,303.0,1,-1.0,a,d,manp,man,P
+HETATM,25,HO6,MAN,1,-13.833,-2.143,3.955,H,303.0,1,-1.0,a,d,manp,man,P
+HETATM,26,O2,MAN,1,-16.916,-5.917,5.723,O,303.0,1,-1.0,a,d,manp,man,P
+HETATM,27,H5,MAN,1,-17.476,-1.779,5.956,H,303.0,1,3.64,a,d,manp,man,P
+HETATM,28,H6S,MAN,1,-15.575,-0.698,4.617,H,303.0,1,-1.0,a,d,manp,man,P
+HETATM,29,H6R,MAN,1,-15.31,-0.815,6.048,H,303.0,1,-1.0,a,d,manp,man,P
+HETATM,30,H1,MAN,1,-18.366,-4.668,3.966,H,303.0,1,5.12,a,d,manp,man,P
+HETATM,31,H2,MAN,1,-18.853,-5.45,6.26,H,303.0,1,4.0,a,d,manp,man,P
+HETATM,32,H3,MAN,1,-18.303,-3.555,7.617,H,303.0,1,3.95,a,d,manp,man,P
+HETATM,33,H4,MAN,1,-15.445,-3.9,6.701,H,303.0,1,3.69,a,d,manp,man,P
+HETATM,34,C1,MAN,2,-17.373,-7.216,5.368,C,303.0,1,102.96,a,d,manp,man,P
+HETATM,35,C2,MAN,2,-17.75,-8.117,6.54,C,303.0,1,70.8,a,d,manp,man,P
+HETATM,36,C3,MAN,2,-16.541,-8.509,7.371,C,303.0,1,71.17,a,d,manp,man,P
+HETATM,37,C4,MAN,2,-15.443,-9.052,6.485,C,303.0,1,67.72,a,d,manp,man,P
+HETATM,38,C5,MAN,2,-15.134,-8.053,5.37,C,303.0,1,74.1,a,d,manp,man,P
+HETATM,39,C6,MAN,2,-14.063,-8.494,4.397,C,303.0,1,61.97,a,d,manp,man,P
+HETATM,40,OH3,MAN,2,-16.934,-9.521,8.306,O,303.0,1,-1.0,a,d,manp,man,P
+HETATM,41,OH4,MAN,2,-14.252,-9.273,7.226,O,303.0,1,-1.0,a,d,manp,man,P
+HETATM,42,O5,MAN,2,-16.34,-7.861,4.612,O,303.0,1,-1.0,a,d,manp,man,P
+HETATM,43,OH6,MAN,2,-14.403,-9.71,3.749,O,303.0,1,-1.0,a,d,manp,man,P
+HETATM,44,HO3,MAN,2,-16.893,-9.001,9.263,H,303.0,1,-1.0,a,d,manp,man,P
+HETATM,45,HO4,MAN,2,-14.202,-10.317,7.535,H,303.0,1,-1.0,a,d,manp,man,P
+HETATM,46,HO6,MAN,2,-14.471,-9.911,2.68,H,303.0,1,-1.0,a,d,manp,man,P
+HETATM,47,OH2,MAN,2,-18.377,-9.288,6.031,O,303.0,1,-1.0,a,d,manp,man,P
+HETATM,48,HO2,MAN,2,-17.672,-9.837,5.408,H,303.0,1,-1.0,a,d,manp,man,P
+HETATM,49,H5,MAN,2,-14.789,-7.151,5.793,H,303.0,1,3.76,a,d,manp,man,P
+HETATM,50,H6S,MAN,2,-13.57,-7.984,3.696,H,303.0,1,-1.0,a,d,manp,man,P
+HETATM,51,H6R,MAN,2,-13.171,-8.656,4.93,H,303.0,1,-1.0,a,d,manp,man,P
+HETATM,52,H1,MAN,2,-18.254,-7.029,4.754,H,303.0,1,5.02,a,d,manp,man,P
+HETATM,53,H2,MAN,2,-18.454,-7.561,7.16,H,303.0,1,4.06,a,d,manp,man,P
+HETATM,54,H3,MAN,2,-16.178,-7.628,7.901,H,303.0,1,3.83,a,d,manp,man,P
+HETATM,55,H4,MAN,2,-15.792,-9.997,6.067,H,303.0,1,3.62,a,d,manp,man,P

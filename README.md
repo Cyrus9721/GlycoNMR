@@ -26,11 +26,17 @@ Processed and annotated tabular datasets. Designed for machine learning research
 
 ## Usage of GlycoNMR dataset:
 
-### 2D GNN examples
+### Python environment with a requirements.txt
 
-An example of training GCN model on GODESS dataset.
+Install all required python libraries:
+```bash
+pip install requirements.txt
+```
+### 1. 2D GNN examples
 
-Create graph data for [GODESS](https://drive.google.com/file/d/1rapUjHs0hhjNfsNMkap3bAdwdNPE2vXA/view?usp=sharing)
+An example of loading GODESS dataset and training 2D GCN model.
+
+Create graph data for [GODESS](https://drive.google.com/file/d/1rapUjHs0hhjNfsNMkap3bAdwdNPE2vXA/view?usp=sharing).
 ```python
 import torch
 from model_2d.NMR_gcn import NMR_GCN
@@ -52,7 +58,7 @@ B.calculate_all_matrix()
 Create = create_graph(data_dir, num_test)
 g, test_index = Create.create_all_graph()
 ```
-Train a GCN model for NMR carbon shift, evaluate on the test set.. 
+Train a GCN model for NMR carbon shift, evaluate on the test set.
 
 ```python
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
