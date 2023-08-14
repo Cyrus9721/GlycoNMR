@@ -14,7 +14,9 @@ The two curated datasets discussed in the paper, click the link to download each
 
 The raw datasets in format of Protein Data Bank (PDB) with corresponding NMR shift files. Designed for glycoscience researchers.
 
-This raw data is difficult and risky to use as is in machine learning research, as we have done substantial curation. Please instead use the downloads "2. Processed carbohydrate datasets" below.
+This raw data is difficult and risky to use as is in machine learning research, as we have done substantial curation. Please instead use the downloads "2. Processed carbohydrate datasets" below. 
+
+All raw data was accessible through publicly available sources that allowed open use as long as proper citation was given.
 
 - GODESS experimentally-informed simulation data can be can be downloaded [here](https://drive.google.com/file/d/15qIixe-irZyJKzvuoINuK1-d53nC8Jyh/view?usp=sharing) and was obtained from http://csdb.glycoscience.ru/goddess.html, see our 2023 manuscript and http://csdb.glycoscience.ru/database/index.html?help=nmr#citation for more information <br />
 
