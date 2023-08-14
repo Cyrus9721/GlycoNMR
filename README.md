@@ -12,21 +12,28 @@ The two curated datasets discussed in the paper, click the link to download each
 
 ### 1. Collected and simulated carbohydrate datasets (uncurated, before ML pipeline): 
 
-The raw datasets in format of Protein Data Bank (PDB) with corresponding NMR shift files. Designed for glycoscience researchers, this research is difficult and risky to use as is in machine learning research, as we have done substantial curation. Please instead use "2. Processed carbohydrate datasets:" below.
+The raw datasets in format of Protein Data Bank (PDB) with corresponding NMR shift files. Designed for glycoscience researchers.
+
+This raw data is difficult and risky to use as is in machine learning research, as we have done substantial curation. Please instead use the downloads "2. Processed carbohydrate datasets" below.
 
 - GODESS experimentally-informed simulation data can be can be downloaded [here](https://drive.google.com/file/d/15qIixe-irZyJKzvuoINuK1-d53nC8Jyh/view?usp=sharing) and was obtained from http://csdb.glycoscience.ru/goddess.html, see our 2023 manuscript and http://csdb.glycoscience.ru/database/index.html?help=nmr#citation for more information <br />
+
+-The complete list of chemical formulae of the GODESS carbohydrates can be viewed in text format here: . See appendix of manuscript for higher level summaries of the data.
+
 - Glycoscience.DB experimental data can be downloaded [here](https://drive.google.com/file/d/1z6OMzvvALq8rOZBWAW5C9yBr_UBQ__ZT/view?usp=sharing). This data was downloaded from the open access, publicly available Glycosciences.DB website discussed in this publication, Böhm, Michael, et al. "Glycosciences. DB: an annotated data collection linking glycomics and proteomics data (2018 update)." Nucleic Acids Research 47.D1 (2019): D1195-D1201. , with download criteria given in our 2023 manuscript. <br />
 
 ### 2. Processed carbohydrate datasets (heavily curated, ready for ML research):
 
-Processed and annotated tabular datasets we provide in the 2023 manuscript. Designed for machine learning researchers. Our manuscript is the first use case of these datasets and we provide them for open access use with proper citation according to the corresponding Github license our repository. This Github is the central location where the data will be maintained. Please address inquiries to the manuscript authors.
+Processed and annotated tabular datasets we provide in the 2023 manuscript. Designed for machine learning researchers. 
+
+Our manuscript is the first use case of these datasets and we provide them for open access use with proper citation according to the corresponding Github license our repository. This Github is the central location where the data will be maintained. Please address inquiries to the manuscript authors.
 
 - Processed GODESS can be downloaded [here](https://drive.google.com/file/d/1rapUjHs0hhjNfsNMkap3bAdwdNPE2vXA/view?usp=sharing). <br />
 - Processed Glycoscience.DB can be downloaded [here](https://drive.google.com/file/d/1z6OMzvvALq8rOZBWAW5C9yBr_UBQ__ZT/view?usp=sharing). <br />
 
 ## Usage of GlycoNMR dataset:
 
-These datasets were used for the first time in our 2023 manuscript to predict NMR 1D chemical shift peaks from PDB structure files of carbohydrates. We hope experimental researchers especially will help us continue to grow this dataset in the future, and that future work will work on prediction from NMR spectra from structure as done here, and vice versa predict structure from NMR spectra (see Next Steps below).
+These datasets were used for the first time in our 2023 manuscript to predict NMR 1D chemical shift peaks from PDB structure files of carbohydrates. We hope experimental researchers especially will help us continue to grow this dataset in the future, and that future work will work on prediction of NMR spectra from structure as done here, and vice versa, predict structure from NMR spectra which is a priority goal to add into the pipeline (see Next Steps below).
 
 ### Python environment with a requirements.txt
 
