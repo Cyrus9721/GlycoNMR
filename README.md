@@ -38,7 +38,7 @@ Our manuscript is the first use case of these datasets and we provide them for o
 
 ## Usage of GlycoNMR dataset:
 
-These datasets were used for the first time in our 2023 manuscript to predict NMR 1D chemical shift peaks from PDB structure files of carbohydrates. We hope experimental researchers especially will help us continue to grow this dataset in the future, and that future work will work on prediction of NMR spectra from structure as done here, and vice versa, predict structure from NMR spectra which is a priority goal to add into the pipeline (see Next Steps below).
+These datasets were used for the first time in our 2023 manuscript to predict NMR 1D chemical shift peaks from PDB structure files of carbohydrates. We hope experimental researchers especially will help us continue to grow this dataset in the future, and that future work will further hone prediction of NMR spectra from structure as done here, and, vice versa, also predict structure from NMR spectra of carbohydrates which is a priority goal to add into the pipeline (see Next Steps below).
 
 ### Python environment with a requirements.txt
 
