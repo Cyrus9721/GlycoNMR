@@ -33,7 +33,7 @@ HETATM,31,C2,IDE,2,-2.46,-2.3,1.544,C,343.0,2,70.9,a,d,glcpnac,glcnac,P
 HETATM,32,C3,IDE,2,-2.962,-3.76,1.555,C,343.0,2,70.6,a,d,glcpnac,glcnac,P
 HETATM,33,C4,IDE,2,-4.441,-3.828,1.123,C,343.0,2,75.8,a,d,glcpnac,glcnac,P
 HETATM,34,C5,IDE,2,-4.644,-3.149,-0.265,C,343.0,2,70.9,a,d,glcpnac,glcnac,P
-HETATM,35,C6,IDE,2,-3.842,-3.932,-1.32,C,343.0,2,175.1,a,d,glcpnac,glcnac,P
+HETATM,35,C6,IDE,2,-3.842,-3.932,-1.32,C,343.0,2,-1.0,a,d,glcpnac,glcnac,P
 HETATM,36,OH2,IDE,2,-1.08,-2.288,1.889,O,343.0,2,-1.0,a,d,glcpnac,glcnac,P
 HETATM,37,OH3,IDE,2,-2.856,-4.311,2.858,O,343.0,2,-1.0,a,d,glcpnac,glcnac,P
 HETATM,38,OH4,IDE,2,-4.873,-5.184,1.05,O,343.0,2,-1.0,a,d,glcpnac,glcnac,P

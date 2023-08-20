@@ -96,6 +96,7 @@ NMR_prediction = NMR_prediction(num_epoch = num_epoch, lr = lr)
 NMR_prediction.train(g, features, labels, masks, model)
 
 ```
+
 # Next Steps in Improving the Datasets
 
 Current prediction and data categories relative to important next steps. 

@@ -1,10 +1,10 @@
 Atom,Atom_Num,Atom_Type,Monosaccharide_belong,residual,x,y,z,atoms_simplify,temperature_f,temperature_label,labels,bound_AB,fischer_projection_DL,origin_mono,reformulated_standard_mono,carbon_number_PF
-HETATM,1,C1,GLC,1,-4.08,6.293,2.694,C,303.0,1,61.6,b,d,glcp,glc,P
-HETATM,2,C2,GLC,1,-4.416,4.908,2.097,C,303.0,1,85.0,b,d,glcp,glc,P
-HETATM,3,C3,GLC,1,-3.835,3.798,2.999,C,303.0,1,68.4,b,d,glcp,glc,P
-HETATM,4,C4,GLC,1,-2.32,3.992,3.24,C,303.0,1,18.0,b,d,glcp,glc,P
+HETATM,1,C1,GLC,1,-4.08,6.293,2.694,C,303.0,1,-1.0,b,d,glcp,glc,P
+HETATM,2,C2,GLC,1,-4.416,4.908,2.097,C,303.0,1,-1.0,b,d,glcp,glc,P
+HETATM,3,C3,GLC,1,-3.835,3.798,2.999,C,303.0,1,85.0,b,d,glcp,glc,P
+HETATM,4,C4,GLC,1,-2.32,3.992,3.24,C,303.0,1,68.4,b,d,glcp,glc,P
 HETATM,5,C5,GLC,1,-2.017,5.433,3.751,C,303.0,1,-1.0,b,d,glcp,glc,P
-HETATM,6,C6,GLC,1,-0.513,5.75,3.814,C,303.0,1,-1.0,b,d,glcp,glc,P
+HETATM,6,C6,GLC,1,-0.513,5.75,3.814,C,303.0,1,61.6,b,d,glcp,glc,P
 HETATM,7,OH1,GLC,1,-4.459,7.306,1.784,O,303.0,1,-1.0,b,d,glcp,glc,P
 HETATM,8,OH2,GLC,1,-5.827,4.755,1.986,O,303.0,1,-1.0,b,d,glcp,glc,P
 HETATM,9,O3,GLC,1,-4.064,2.542,2.376,O,303.0,1,-1.0,b,d,glcp,glc,P
@@ -18,7 +18,7 @@ HETATM,16,HO6,GLC,1,-0.672,6.181,1.953,H,303.0,1,-1.0,b,d,glcp,glc,P
 HETATM,17,H1,GLC,1,-4.605,6.443,3.66,H,303.0,1,3.65,b,d,glcp,glc,P
 HETATM,18,H2,GLC,1,-3.957,4.837,1.091,H,303.0,1,3.76,b,d,glcp,glc,P
 HETATM,19,H3,GLC,1,-4.363,3.815,3.974,H,303.0,1,4.0,b,d,glcp,glc,P
-HETATM,20,H4,GLC,1,-1.782,3.826,2.285,H,303.0,1,1.16,b,d,glcp,glc,P
+HETATM,20,H4,GLC,1,-1.782,3.826,2.285,H,303.0,1,-1.0,b,d,glcp,glc,P
 HETATM,21,H5,GLC,1,-2.431,5.533,4.775,H,303.0,1,-1.0,b,d,glcp,glc,P
 HETATM,22,H6S,GLC,1,-0.356,6.713,4.336,H,303.0,1,-1.0,b,d,glcp,glc,P
 HETATM,23,H6R,GLC,1,0.027,4.989,4.41,H,303.0,1,-1.0,b,d,glcp,glc,P

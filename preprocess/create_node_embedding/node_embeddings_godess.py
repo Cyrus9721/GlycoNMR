@@ -27,7 +27,7 @@ class create_node_embeddings:
 
     """
 
-    def __init__(self, data_dir='godess/data',
+    def __init__(self, data_dir='godess/data/',
                  out_atom_name_embed='godess/node_embedding/atom_name_embed.csv',
                  out_bound_orig_embed='godess/node_embedding/bound_orig.csv',
                  out_atom_type_embed='godess/node_embedding/atom_type.csv',

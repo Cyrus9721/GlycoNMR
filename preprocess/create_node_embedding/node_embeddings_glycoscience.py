@@ -13,11 +13,13 @@ class create_node_embeddings:
     generate embeddings for atom type, residual belongs and monosaccharide number
     """
 
-    def __init__(self, data_dir='data/directory_reformulate_combined/', out_atom_embed='graph/atom_embed.csv',
-                 out_residual_embed='graph/residual_embed.csv',
-                 out_monosaccharide_embed='graph/monosaccharide_embed.csv',
-                 out_bound_AB_embed='graph/bound_ab.csv', out_DL_embed='graph/bound_dl.csv',
-                 out_PF_embed='graph/carbon_pf.csv',
+    def __init__(self, data_dir='glycosciencedb/data/',
+                 out_atom_embed='glycosciencedb/node_embedding/atom_embed.csv',
+                 out_residual_embed='glycosciencedb/node_embedding/residual_embed.csv',
+                 out_monosaccharide_embed='glycosciencedb/node_embedding/monosaccharide_embed.csv',
+                 out_bound_AB_embed='glycosciencedb/node_embedding/ab_embed.csv',
+                 out_DL_embed='glycosciencedb/node_embedding/dl_embed.csv',
+                 out_PF_embed='glycosciencedb/node_embedding/pf_embed.csv',
                  seed=97211):
         self.data_dir = data_dir
         self.out_atom_embed = out_atom_embed
@@ -29,7 +31,7 @@ class create_node_embeddings:
         self.out_carbon_pf = out_PF_embed
         self.seed = seed
 
-    def create_all_embeddings(self, atom_dim=64, residual_dim=32, mono_dim=32, ab_dim=32, dl_dim=32, pf_dim=32):
+    def create_all_embeddings(self, atom_dim=256, residual_dim=128, mono_dim=64, ab_dim=64, dl_dim=64, pf_dim=64):
         """
         :param atom_dim: atom feature dimension
         :param residual_dim: residual feature dimension
