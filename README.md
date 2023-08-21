@@ -4,10 +4,7 @@
 
 # GlycoNMR
 
-Data repository for the manuscript titled: "GlycoNMR: A Carbohydrate-Specific NMR Chemical Shift Dataset for Machine Learning Research" (Chen et al. 2023). This work was supported by GlycoMIP, a National Science Foundation Materials Innovation Platform funded through Cooperative Agreement DMR-1933525.
-
-![GlycoMIP_TypeTest_Graident](https://github.com/Cyrus9721/GlycoNMR/assets/67677231/fba19d47-999c-4c00-9d8c-09dee36035c7)
-
+Data repository for the manuscript titled: "GlycoNMR: A Carbohydrate-Specific NMR Chemical Shift Dataset for Machine Learning Research" (Chen et al. 2023). 
 
 ## Datasets:
 
@@ -96,6 +93,7 @@ NMR_prediction = NMR_prediction(num_epoch = num_epoch, lr = lr)
 NMR_prediction.train(g, features, labels, masks, model)
 
 ```
+
 # Next Steps in Improving the Datasets
 
 Current prediction and data categories relative to important next steps. 
@@ -105,3 +103,8 @@ In our manuscript, we have predicted constant solvent (D2O, water) solution-stat
 Experimental researchers in carbohydrate structure should continue to improve their standards of complete and consistently reported meta-data and spectra, as well as upload sets of possible structure files that could be consistent with a given spectra rather than just a single structure file of their best guess (when warranted) in order to best aid future ML research in this area.
 
 ![RoadMapFigure](https://github.com/Cyrus9721/GlycoNMR/assets/67677231/db833beb-c5b8-4657-8e6e-b5f7119dbcc9)
+
+##### This work was supported by GlycoMIP, a National Science Foundation Materials Innovation Platform funded through Cooperative Agreement DMR-1933525.
+![GlycoMIP_TypeTest_Graident](https://github.com/Cyrus9721/GlycoNMR/assets/67677231/fba19d47-999c-4c00-9d8c-09dee36035c7)
+
+
