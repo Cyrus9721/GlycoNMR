@@ -93,8 +93,16 @@ NMR_prediction = NMR_prediction(num_epoch = num_epoch, lr = lr)
 NMR_prediction.train(g, features, labels, masks, model)
 
 ```
+## Leaderboard
 
-# Next Steps in Improving the Datasets
+| Methods  | GODESS C Shift | GODESS H Shift | Glycosciences.DB C Shift | Glycosciences.DB H Shift | 
+| ------------- | ------------- | ------------- | ------------- | ------------- | 
+| ComENet  | 2.091  | 0.125  | 3.997  | 0.204  | 
+| DimeNet++  | 1.639  | 0.122  | 3.617 | 0.161  | 
+| SchNet  | 1.485  | 0.119  | 3.248 | 0.160 | 
+| SphereNet  | 1.353  | 0.110  | 3.462 | 0.163 | 
+
+## Next Steps in Improving the Datasets
 
 Current prediction and data categories relative to important next steps. 
 
