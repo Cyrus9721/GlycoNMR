@@ -613,7 +613,7 @@ class ComENet(nn.Module):
         self.feature1 = torsion_emb(num_radial=num_radial, num_spherical=num_spherical, cutoff=cutoff)
         self.feature2 = angle_emb(num_radial=num_radial, num_spherical=num_spherical, cutoff=cutoff)
 
-        self.emb = EmbeddingBlock(hidden_channels, act, in_embed_size =560)
+        self.emb = EmbeddingBlock(hidden_channels, act, in_embed_size =in_embed_size)
 
         self.interaction_blocks = torch.nn.ModuleList(
             [
