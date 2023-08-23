@@ -35,6 +35,11 @@ Our manuscript is the first use case of these datasets and we provide them for o
 - Processed GODESS can be downloaded [here](https://drive.google.com/file/d/1rapUjHs0hhjNfsNMkap3bAdwdNPE2vXA/view?usp=sharing). <br />
 - Processed Glycoscience.DB can be downloaded [here](https://drive.google.com/file/d/1z6OMzvvALq8rOZBWAW5C9yBr_UBQ__ZT/view?usp=sharing). <br />
 
+The two preprocessing Githubs for this project are at the following links:
+
+- https://github.com/Cyrus9721/GlycoscienceDB_preprocess
+- https://github.com/Cyrus9721/GODESS_preprocess
+
 ## Usage of GlycoNMR dataset:
 
 These datasets were used for the first time in our 2023 manuscript to predict NMR 1D chemical shift peaks from PDB structure files of carbohydrates. We hope experimental researchers especially will help us continue to grow this dataset in the future, and that future work will further hone prediction of NMR spectra from structure as done here, and, vice versa, also predict structure from NMR spectra of carbohydrates which is a priority goal to add into the pipeline (see Next Steps below).
