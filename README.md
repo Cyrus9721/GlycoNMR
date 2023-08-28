@@ -45,6 +45,15 @@ The two preprocessing Githubs for this project are at the following links:
 These datasets were used for the first time in our 2023 manuscript to predict NMR 1D chemical shift peaks from PDB structure files of carbohydrates. We hope experimental researchers especially will help us continue to grow this dataset in the future, and that future work will further hone prediction of NMR spectra from structure as done here, and, vice versa, also predict structure from NMR spectra of carbohydrates which is a priority goal to add into the pipeline (see Next Steps below).
 
 ### Python environment with a requirements.txt
+1, Install DGL library: https://www.dgl.ai/pages/start.html. 
+
+For cuda version == 11.7:
+
+```bash
+pip install  dgl -f https://data.dgl.ai/wheels/cu117/repo.html
+```
+
+2, Then isntall rest of the packages:
 
 Install all required python libraries:
 ```bash
