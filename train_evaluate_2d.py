@@ -11,7 +11,7 @@ from dgl import AddSelfLoop
 from model_2d.NMR_gcn import NMR_GCN
 from preprocess.create_graph.create_graph_data_godess import create_graph
 from tqdm import tqdm
-
+from sklearn.metrics import r2_score
 
 class NMR_prediction:
     def __init__(self, results_dir='dataset/Godess_final_data/results/training_hydrogen.csv',
@@ -25,27 +25,35 @@ class NMR_prediction:
         self.lr = lr
         self.weight_decay = weight_decay
 
-    def evaluate(self, g, features, shift_values, mask, model, save_train=False, save_test = False):
+    def evaluate(self, g, features, shift_values, mask, model, save_train=False, save_test = False, report_r2 = False):
         model.eval()
         with torch.no_grad():
             predict_shift = model(g, features)
-            predict_shift_test = predict_shift[mask]
-            actual_shift_test = shift_values[mask]
+            predict_shift_test = predict_shift[mask].cpu().numpy()
+            actual_shift_test = shift_values[mask].cpu().numpy()
 
-            correct = torch.sum((predict_shift_test - actual_shift_test) ** 2)
+            correct = np.sum((predict_shift_test - actual_shift_test) ** 2)
+            r_2 = r2_score(predict_shift_test, actual_shift_test)
+
 
             if save_train:
-                df_temp = pd.DataFrame([predict_shift_test.cpu().numpy(), actual_shift_test.cpu().numpy()]).T
+                df_temp = pd.DataFrame([predict_shift_test, actual_shift_test]).T
                 df_temp.to_csv(self.results_dir, index=False)
-            print(len(predict_shift_test))
+            # print(len(predict_shift_test))
 
             if save_test:
-                df_temp = pd.DataFrame([predict_shift_test.cpu().numpy(), actual_shift_test.cpu().numpy()]).T
+                df_temp = pd.DataFrame([predict_shift_test, actual_shift_test]).T
                 df_temp.to_csv(self.results_dir_test, index=False)
 
-            return np.sqrt(correct.item() * 1.0 / len(predict_shift_test))
+            # return np.sqrt(correct.item() * 1.0 / len(predict_shift_test))
 
-    def train(self, g, features, shift_values, masks, model):
+            if report_r2:
+                return np.sqrt(correct / len(predict_shift_test)), r_2
+
+            else:
+                return np.sqrt(correct / len(predict_shift_test))
+
+    def train(self, g, features, shift_values, masks, model, report_r2 = False):
         # define train/val samples, loss function and optimizer
         train_mask = masks[0]
         test_mask = masks[1]
@@ -61,13 +69,22 @@ class NMR_prediction:
             loss.backward()
             optimizer.step()
 
-            mse_test = self.evaluate(g, features, shift_values, test_mask, model)
-            mse_train = self.evaluate(g, features, shift_values, train_mask, model)
-            print(
-                "Epoch {:05d} | Loss {:.4f} | train_RMSE {:.4f} | test_RMSE {:.4f} ".format(
-                    epoch, loss.item(), mse_train, mse_test
+            if report_r2:
+                mse_test, r2_test = self.evaluate(g, features, shift_values, test_mask, model, report_r2 = report_r2)
+                mse_train, r2_train = self.evaluate(g, features, shift_values, train_mask, model, report_r2 = report_r2)
+                print(
+                    "Epoch {:05d} | Loss {:.4f} | train_RMSE {:.4f} | train_r2 {:.4f} | test_RMSE {:.4f} | test_r2 {:.4f} ".format(
+                        epoch, loss.item(), mse_train, r2_train, mse_test, r2_test
+                    )
                 )
-            )
+            else:
+                mse_test = self.evaluate(g, features, shift_values, test_mask, model)
+                mse_train = self.evaluate(g, features, shift_values, train_mask, model)
+                print(
+                    "Epoch {:05d} | Loss {:.4f} | train_RMSE {:.4f} | test_RMSE {:.4f} ".format(
+                        epoch, loss.item(), mse_train, mse_test
+                    )
+                )
             if loss.item() < best_loss:
                 best_loss = loss.item()
                 torch.save(model.state_dict(), self.model_dir)
