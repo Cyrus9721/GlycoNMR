@@ -108,6 +108,7 @@ NMR_prediction.train(g, features, labels, masks, model)
 
 ```
 ## Leaderboard
+Please use to the following link for [leaderboard submission](https://forms.gle/UHaGD616LmBVCAur9).
 
 | Methods  | GODESS C Shift | GODESS H Shift | Glycosciences.DB C Shift | Glycosciences.DB H Shift | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
