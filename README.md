@@ -53,7 +53,7 @@ For cuda version == 11.7:
 pip install  dgl -f https://data.dgl.ai/wheels/cu117/repo.html
 ```
 
-2, Then isntall rest of the packages:
+2, Then install rest of the packages:
 
 Install all required python libraries:
 ```bash
