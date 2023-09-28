@@ -1,5 +1,3 @@
-# @Author  : Zizhang Chen
-# @Contact : zizhang2@outlook.com
 import numpy as np
 import pandas as pd
 import os

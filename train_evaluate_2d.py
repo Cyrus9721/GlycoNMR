@@ -1,5 +1,3 @@
-# @Author  : Zizhang Chen
-# @Contact : zizhang2@outlook.com
 import pandas as pd
 import numpy as np
 import torch

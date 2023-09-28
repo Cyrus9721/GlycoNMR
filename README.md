@@ -4,7 +4,7 @@
 
 # GlycoNMR
 
-Data repository for the manuscript titled: "GlycoNMR: A Carbohydrate-Specific NMR Chemical Shift Dataset for Machine Learning Research" (Chen et al. 2023). 
+Data repository for the manuscript titled: "GlycoNMR: Dataset and benchmarks for NMR Shift prediction on glycomaterials". 
 
 ## Datasets:
 
@@ -18,9 +18,9 @@ This raw data is difficult and risky to use as is in machine learning research, 
 
 All raw data was accessible through publicly available sources that allowed open use as long as proper citation was given.
 
-- GODESS experimentally-informed simulation data can be can be downloaded [here](https://drive.google.com/file/d/15qIixe-irZyJKzvuoINuK1-d53nC8Jyh/view?usp=sharing) and was obtained from http://csdb.glycoscience.ru/goddess.html, see our 2023 manuscript and http://csdb.glycoscience.ru/database/index.html?help=nmr#citation for more information <br />
+- GODESS experimentally-informed simulation data can be downloaded [here](https://drive.google.com/file/d/15qIixe-irZyJKzvuoINuK1-d53nC8Jyh/view?usp=sharing) and was obtained from http://csdb.glycoscience.ru/goddess.html, see our manuscript and http://csdb.glycoscience.ru/database/index.html?help=nmr#citation for more information <br />
 
-- The complete list of chemical formulae of the carbohydrates included in our GODESS dataset can be viewed in text format here: [GODESS_Chemical_formula.csv](https://github.com/Cyrus9721/GlycoNMR/files/12384105/GODESS_Chemical_formula.csv)
+- The complete list of chemical formulae of the carbohydrates included in our GODESS dataset can be viewed in text format here: [GODESS_Chemical_formula.csv](https://anonymous.4open.science/r/GlycoNMR-D381/GODESS_Chemical_formula.csv)
 
 - See appendix of manuscript for higher level summaries of the data.
 
@@ -32,13 +32,13 @@ Processed and annotated tabular datasets we provide in the 2023 manuscript. Desi
 
 Our manuscript is the first use case of these datasets and we provide them for open access use with proper citation according to the corresponding Github license our repository. This Github is the central location where the data will be maintained. Please address inquiries to the manuscript authors.
 
-- Processed GODESS can be downloaded [here](https://drive.google.com/file/d/1rapUjHs0hhjNfsNMkap3bAdwdNPE2vXA/view?usp=sharing). <br />
-- Processed Glycoscience.DB can be downloaded [here](https://drive.google.com/file/d/1z6OMzvvALq8rOZBWAW5C9yBr_UBQ__ZT/view?usp=sharing). <br />
+- GlycoNMR.Sim processed, annotated from GODESS can be downloaded [here](https://drive.google.com/file/d/1rapUjHs0hhjNfsNMkap3bAdwdNPE2vXA/view?usp=sharing). <br />
+- GlycoNMR.Exp processed, annotated from Glycoscience.DB can be downloaded [here](https://drive.google.com/file/d/1z6OMzvvALq8rOZBWAW5C9yBr_UBQ__ZT/view?usp=sharing). <br />
 
 The two preprocessing Githubs for this project are at the following links:
 
-- https://github.com/Cyrus9721/GlycoscienceDB_preprocess
-- https://github.com/Cyrus9721/GODESS_preprocess
+- Preprocess, annotate [GlycoscienceDB to GlycoNMR.Exp](https://anonymous.4open.science/r/GlycoscienceDB_preprocess-B678/README.md)
+- Preprocess, annotate [GODES to GlycoNMR.Sim](https://anonymous.4open.science/r/GODESS_preprocess-F9CD/README.md)
 
 ## Usage of GlycoNMR dataset:
 
@@ -50,7 +50,7 @@ These datasets were used for the first time in our 2023 manuscript to predict NM
 For cuda version == 11.7:
 
 ```bash
-pip install  dgl -f https://data.dgl.ai/wheels/cu117/repo.html
+pip install dgl -f https://data.dgl.ai/wheels/cu117/repo.html
 ```
 
 2, Then install rest of the packages:
@@ -108,14 +108,14 @@ NMR_prediction.train(g, features, labels, masks, model)
 
 ```
 ## Leaderboard
-Please use to the following link for [leaderboard submission](https://forms.gle/UHaGD616LmBVCAur9).
+Leaderboard submission link coming shortly.
 
-| Methods  | GODESS C Shift | GODESS H Shift | Glycosciences.DB C Shift | Glycosciences.DB H Shift | 
-| ------------- | ------------- | ------------- | ------------- | ------------- | 
-| ComENet  | 2.091  | 0.125  | 3.997  | 0.204  | 
-| DimeNet++  | 1.639  | 0.122  | 3.617 | 0.161  | 
-| SchNet  | 1.485  | 0.119  | 3.248 | 0.160 | 
-| SphereNet  | 1.353  | 0.110  | 3.462 | 0.163 | 
+| Methods  | GlycoNMR.Sim C Shift | GlycoNMR.Sim H Shift | GlycoNMR.Exp C Shift | GlycoNMR.Exp H Shift | 
+| ------------- |----------------------| ------------- |---------------------| ------------- | 
+| ComENet  | 1.431                | 0.116 | 2.938               | 0.168  | 
+| DimeNet++  | 1.449                | 0.113  | 2.550               | 0.145  | 
+| SchNet  | 1.487               | 0.118  | 2.492               | 0.140 | 
+| SphereNet  | 1.353                | 0.110  | 3.044               | 0.146 | 
 
 ## Next Steps in Improving the Datasets
 
@@ -125,9 +125,4 @@ In our manuscript, we have predicted constant solvent (D2O, water) solution-stat
 
 Experimental researchers in carbohydrate structure should continue to improve their standards of complete and consistently reported meta-data and spectra, as well as upload sets of possible structure files that could be consistent with a given spectra rather than just a single structure file of their best guess (when warranted) in order to best aid future ML research in this area.
 
-![RoadMapFigure](https://github.com/Cyrus9721/GlycoNMR/assets/67677231/db833beb-c5b8-4657-8e6e-b5f7119dbcc9)
-
-##### This work was supported by GlycoMIP, a National Science Foundation Materials Innovation Platform funded through Cooperative Agreement DMR-1933525.
-![GlycoMIP_TypeTest_Graident](https://github.com/Cyrus9721/GlycoNMR/assets/67677231/fba19d47-999c-4c00-9d8c-09dee36035c7)
-
-
+![RoadMapFigure](roadmap_figure.png)
