@@ -18,13 +18,13 @@ This raw data is difficult and risky to use as is in machine learning research, 
 
 All raw data was accessible through publicly available sources that allowed open use as long as proper citation was given.
 
-- GODESS experimentally-informed simulation data can be downloaded [here](https://drive.google.com/file/d/15qIixe-irZyJKzvuoINuK1-d53nC8Jyh/view?usp=sharing) and was obtained from http://csdb.glycoscience.ru/goddess.html, see our manuscript and http://csdb.glycoscience.ru/database/index.html?help=nmr#citation for more information <br />
+- GODESS experimentally-informed simulation data can be downloaded [here](https://drive.google.com/file/d/1tTHyuP3Ory2MFX6uY1t01ydTtHolWCyp/view?usp=sharing) and was obtained from http://csdb.glycoscience.ru/goddess.html, see our manuscript and http://csdb.glycoscience.ru/database/index.html?help=nmr#citation for more information <br />
 
 - The complete list of chemical formulae of the carbohydrates included in our GODESS dataset can be viewed in text format here: [GODESS_Chemical_formula.csv](https://anonymous.4open.science/r/GlycoNMR-D381/GODESS_Chemical_formula.csv)
 
 - See appendix of manuscript for higher level summaries of the data.
 
-- Glycosciences.DB experimental data can be downloaded [here](https://drive.google.com/file/d/1z6OMzvvALq8rOZBWAW5C9yBr_UBQ__ZT/view?usp=sharing). This data was downloaded from the open access, publicly available Glycosciences.DB website discussed in this publication, Böhm, Michael, et al. "Glycosciences. DB: an annotated data collection linking glycomics and proteomics data (2018 update)." Nucleic Acids Research 47.D1 (2019): D1195-D1201. , with download criteria given in our 2023 manuscript. <br />
+- Glycosciences.DB experimental data uploaded from various lab can be downloaded [here](https://drive.google.com/file/d/18He3ZiDmQra8oUUwn2Tvw1FMCGchaG3w/view?usp=sharing). This data was downloaded from the open access, publicly available Glycosciences.DB website discussed in this publication, Böhm, Michael, et al. "Glycosciences. DB: an annotated data collection linking glycomics and proteomics data (2018 update)." Nucleic Acids Research 47.D1 (2019): D1195-D1201. , with download criteria given in our 2023 manuscript. <br />
 
 ### 2. Processed carbohydrate datasets (heavily curated, ready for ML research):
 
@@ -32,8 +32,8 @@ Processed and annotated tabular datasets we provide in the 2023 manuscript. Desi
 
 Our manuscript is the first use case of these datasets and we provide them for open access use with proper citation according to the corresponding Github license our repository. This Github is the central location where the data will be maintained. Please address inquiries to the manuscript authors.
 
-- GlycoNMR.Sim processed, annotated from GODESS can be downloaded [here](https://drive.google.com/file/d/1rapUjHs0hhjNfsNMkap3bAdwdNPE2vXA/view?usp=sharing). <br />
-- GlycoNMR.Exp processed, annotated from Glycosciences.DB can be downloaded [here](https://drive.google.com/file/d/1z6OMzvvALq8rOZBWAW5C9yBr_UBQ__ZT/view?usp=sharing). <br />
+- GlycoNMR.Sim processed, annotated from GODESS can be downloaded [here](https://drive.google.com/file/d/1zh775eua0wWBo4MG7KP934m-MEo3Zmuy/view?usp=sharing). <br />
+- GlycoNMR.Exp processed, annotated from Glycosciences.DB can be downloaded [here](https://drive.google.com/file/d/1FnIrZwGU4gcUO7E2K7mfc5q-1xYHe8F9/view?usp=sharing). <br />
 
 The two preprocessing Githubs for this project are at the following links:
 
@@ -61,9 +61,9 @@ pip install requirements.txt
 ```
 ### 1. 2D GNN examples
 
-An example of loading GODESS dataset and training 2D GCN model.
+An example of loading GlycoNMR.Sim dataset and training 2D GCN model.
 
-Create graph data for [GODESS](https://drive.google.com/file/d/1rapUjHs0hhjNfsNMkap3bAdwdNPE2vXA/view?usp=sharing).
+Create graph data for [GlycoNMR.Sim](https://drive.google.com/file/d/1zh775eua0wWBo4MG7KP934m-MEo3Zmuy/view?usp=sharing).
 ```python
 import torch
 from model_2d.NMR_gcn import NMR_GCN
