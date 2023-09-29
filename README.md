@@ -37,8 +37,8 @@ Our manuscript is the first use case of these datasets and we provide them for o
 
 The two preprocessing Githubs for this project are at the following links:
 
-- Preprocess, annotate GlycosciencesDB to GlycoNMR.Exp: (https://anonymous.4open.science/r/GlycoscienceDB_preprocess-B678/README.md)
-- Preprocess, annotate GODESS to GlycoNMR.Sim: (https://anonymous.4open.science/r/GODESS_preprocess-F9CD/README.md)
+- [Preprocess, annotate GlycosciencesDB to GlycoNMR.Exp](https://anonymous.4open.science/r/GlycoscienceDB_preprocess-B678/README.md)
+- [Preprocess, annotate GODESS to GlycoNMR.Sim](https://anonymous.4open.science/r/GODESS_preprocess-F9CD/README.md)
 
 ## Usage of GlycoNMR dataset:
 
