@@ -110,12 +110,6 @@ NMR_prediction.train(g, features, labels, masks, model)
 ## Leaderboard
 Leaderboard submission link coming shortly.
 
-| Methods  | GlycoNMR.Sim C Shift | GlycoNMR.Sim H Shift | GlycoNMR.Exp C Shift | GlycoNMR.Exp H Shift | 
-| ------------- |----------------------| ------------- |---------------------| ------------- | 
-| ComENet  | 1.431                | 0.116 | 2.938               | 0.168  | 
-| DimeNet++  | 1.449                | 0.113  | 2.550               | 0.145  | 
-| SchNet  | 1.487               | 0.118  | 2.492               | 0.140 | 
-| SphereNet  | 1.353                | 0.110  | 3.044               | 0.146 | 
 
 ## Next Steps in Improving the Datasets
 
