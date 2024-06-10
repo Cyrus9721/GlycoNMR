@@ -12,19 +12,19 @@ The two curated datasets discussed in the paper, click the link to download each
 
 ### 1. Collected and simulated carbohydrate datasets (uncurated, before ML pipeline): 
 
-The raw datasets in format of Protein Data Bank (PDB) 3D coordinate structure files with corresponding NMR shift files. Designed for glycoscience researchers with standard format for experimental files.
+The raw datasets are in the format of Protein Data Bank (PDB) 3D coordinate structure files with corresponding NMR shift files. Designed for glycoscience researchers with standard format for experimental files.
 
-This raw data is difficult and risky to use as is in machine learning research, as we have done substantial curation after obtaining this raw data. For ML pipelines, please instead use the downloads "2. Processed carbohydrate datasets" below. We have just provided this raw uncurated data for completion and openness.
+This raw data is difficult and risky to use, as is in machine learning research, as we have done substantial curation after obtaining this raw data. For ML pipelines, please instead use the downloads "2. Processed carbohydrate datasets" below. We have just provided this raw uncurated data for completion and openness.
 
 All raw data was accessible through publicly available sources that allowed open use as long as proper citation was given.
 
-- GODESS experimentally-informed simulation data can be downloaded [here](https://drive.google.com/file/d/1tTHyuP3Ory2MFX6uY1t01ydTtHolWCyp/view?usp=sharing) and was obtained from http://csdb.glycoscience.ru/goddess.html, see our manuscript and http://csdb.glycoscience.ru/database/index.html?help=nmr#citation for more information <br />
+- GODESS experimentally-informed simulation data can be downloaded [here](https://drive.google.com/file/d/1N_g0iNzFrHd8vNXXZlJIn4o6qFGgECMb/view?usp=drive_link) and was obtained from http://csdb.glycoscience.ru/goddess.html, see our manuscript and http://csdb.glycoscience.ru/database/index.html?help=nmr#citation for more information <br />
 
-- The complete list of chemical formulae of the carbohydrates included in our GODESS dataset can be viewed in text format here: [GODESS_Chemical_formula.csv](https://anonymous.4open.science/r/GlycoNMR-D381/GODESS_Chemical_formula.csv)
+- The complete list of chemical formulas of the carbohydrates included in our GODESS dataset can be viewed in text format here: [GODESS_Chemical_formula.csv](https://github.com/Cyrus9721/GlycoNMR/blob/main/GODESS_Chemical_formula.csv)
 
-- See appendix of manuscript for higher level summaries of the data.
+- See the appendix of the manuscript for higher-level summaries of the data.
 
-- Glycosciences.DB experimental data uploaded from various lab can be downloaded [here](https://drive.google.com/file/d/18He3ZiDmQra8oUUwn2Tvw1FMCGchaG3w/view?usp=sharing). This data was downloaded from the open access, publicly available Glycosciences.DB website discussed in this publication, Böhm, Michael, et al. "Glycosciences. DB: an annotated data collection linking glycomics and proteomics data (2018 update)." Nucleic Acids Research 47.D1 (2019): D1195-D1201. , with download criteria given in our 2023 manuscript. <br />
+- Glycosciences.DB experimental data uploaded from various labs can be downloaded [here](https://drive.google.com/file/d/13fSBOLjBDL8E_kQG00YN1FcZeddf-bhw/view?usp=drive_link). This data was downloaded from the open access, publicly available Glycosciences.DB website discussed in this publication, Böhm, Michael, et al. "Glycosciences. DB: an annotated data collection linking glycomics and proteomics data (2018 update)." Nucleic Acids Research 47.D1 (2019): D1195-D1201. , with download criteria given in our manuscript. <br />
 
 ### 2. Processed carbohydrate datasets (heavily curated, ready for ML research):
 
@@ -32,13 +32,13 @@ Processed and annotated tabular datasets we provide in the 2023 manuscript. Desi
 
 Our manuscript is the first use case of these datasets and we provide them for open access use with proper citation according to the corresponding Github license our repository. This Github is the central location where the data will be maintained. Please address inquiries to the manuscript authors.
 
-- GlycoNMR.Sim processed, annotated from GODESS can be downloaded [here](https://drive.google.com/file/d/1zh775eua0wWBo4MG7KP934m-MEo3Zmuy/view?usp=sharing). <br />
-- GlycoNMR.Exp processed, annotated from Glycosciences.DB can be downloaded [here](https://drive.google.com/file/d/1FnIrZwGU4gcUO7E2K7mfc5q-1xYHe8F9/view?usp=sharing). <br />
+- GlycoNMR.Sim processed, annotated from GODESS can be downloaded [here](https://drive.google.com/file/d/1nIQT8QY0uPcXz3m8FVMd5HCnKO3m-1MB/view?usp=drive_link). <br />
+- GlycoNMR.Exp processed, annotated from Glycosciences.DB can be downloaded [here](https://drive.google.com/file/d/1TkzculHUa4u6ifODL2F0VQkUCotnJzCA/view?usp=drive_link). <br />
 
 The two preprocessing Githubs for this project are at the following links:
 
-- [Preprocess, annotate GlycosciencesDB to GlycoNMR.Exp](https://anonymous.4open.science/r/GlycoscienceDB_preprocess-B678/README.md)
-- [Preprocess, annotate GODESS to GlycoNMR.Sim](https://anonymous.4open.science/r/GODESS_preprocess-F9CD/README.md)
+- [Preprocess, annotate GlycosciencesDB to GlycoNMR.Exp](https://github.com/Cyrus9721/GlycoscienceDB_preprocess)
+- [Preprocess, annotate GODESS to GlycoNMR.Sim](https://github.com/Cyrus9721/GODESS_preprocess)
 
 ## Usage of GlycoNMR dataset:
 
