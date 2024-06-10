@@ -63,7 +63,7 @@ pip install requirements.txt
 
 An example of loading GlycoNMR.Sim dataset and training 2D GCN model.
 
-Create graph data for [GlycoNMR.Sim](https://drive.google.com/file/d/1zh775eua0wWBo4MG7KP934m-MEo3Zmuy/view?usp=sharing).
+Create graph data for [GlycoNMR.Sim](https://github.com/Cyrus9721/GODESS_preprocess).
 ```python
 import torch
 from model_2d.NMR_gcn import NMR_GCN
