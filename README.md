@@ -32,7 +32,7 @@ Processed and annotated tabular datasets we provide in the 2023 manuscript. Desi
 
 Our manuscript is the first use case of these datasets and we provide them for open access use with proper citation according to the corresponding Github license our repository. This Github is the central location where the data will be maintained. Please address inquiries to the manuscript authors.
 
-- GlycoNMR.Sim processed, annotated from GODESS can be downloaded [here](https://drive.google.com/file/d/1nIQT8QY0uPcXz3m8FVMd5HCnKO3m-1MB/view?usp=drive_link). <br />
+- GlycoNMR.Sim processed, annotated from GODESS can be downloaded [here](https://drive.google.com/file/d/1nIQT8QY0uPcXz3m8FVMd5HCnKO3m-1MB/view?usp=drive_link). <br /> To run the experiments, please put all the downloaded csv files under ~/GlycoNMR/godess/dataset/.
 - GlycoNMR.Exp processed, annotated from Glycosciences.DB can be downloaded [here](https://drive.google.com/file/d/1TkzculHUa4u6ifODL2F0VQkUCotnJzCA/view?usp=drive_link). <br />
 
 The two preprocessing Githubs for this project are at the following links:
