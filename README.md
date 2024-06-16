@@ -108,8 +108,15 @@ NMR_prediction.train(g, features, labels, masks, model)
 
 ```
 ## Leaderboard
-Leaderboard submission link coming shortly.
+Leaderboard submission [link](https://forms.gle/3YJhNEN8K3mbbx1D9)
 
+| Model                                  | GlycoNMR.Sim C           | GlycoNMR.Sim C           | GlycoNMR.Exp H            | GlycoNMR.Exp H            |
+|----------------------------------------|---------------------|---------------------|---------------------|---------------------|
+| ComENet (Wang et al., 2022) / extra feat.   | 1.2913±0.0196       | 0.1058±0.0013       | 2.6250±0.1211       | 0.1458±0.0082       |
+| DimeNet ++ (Gasteiger et al., 2020a) / extra feat. | 1.2379±0.0188       | 0.1042±0.0024   | 3.0073±0.4308       | 0.1489±0.0118       |
+| SchNet (Schütt et al., 2017) / extra feat.    | 1.2212±0.0555       | 0.1187±0.004        | 2.6590±0.6067       | 0.1630±0.0069       |
+| SphereNet (Liu et al., 2022) / extra feat.    | 1.2362±0.0135       | 0.1087±0.0016       | 2.5860±0.0993       | 0.1834±0.0332       |
+| CASCADE (Guan et al., 2021) / extra feat.     | 1.2075±0.0033   | 0.1195±0.008        | 2.7392±0.0890       | 0.1381±0.0025   |
 
 ## Next Steps in Improving the Datasets
 
