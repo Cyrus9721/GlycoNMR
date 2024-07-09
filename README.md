@@ -42,7 +42,8 @@ The two preprocessing Githubs for this project are at the following links:
 
 ## Usage of GlycoNMR dataset:
 
-These datasets were used for the first time in our 2023 manuscript to predict NMR 1D chemical shift peaks from PDB structure files of carbohydrates. We hope experimental researchers especially will help us continue to grow this dataset in the future, and that future work will further hone prediction of NMR spectra from structure as done here, and, vice versa, also predict structure from NMR spectra of carbohydrates which is a priority goal to add into the pipeline (see Next Steps below).
+These datasets were used for the first time in our 2023 manuscript to predict NMR 1D chemical shift peaks from PDB structure files of carbohydrates. We hope experimental researchers especially will help us continue to grow this dataset in the future and that future work will further hone the prediction of NMR spectra from structure as done here, and, vice versa, also predict structure from NMR spectra of carbohydrates, which is a priority goal to add into the pipeline (see Next Steps below). 
+Video demo: https://drive.google.com/file/d/1R_jv_6CPnvCk9Qsq7iOQlbet9N6l7Kse/view?usp=sharing
 
 ### Python environment with a requirements.txt
 1, Install DGL library: https://www.dgl.ai/pages/start.html. 
@@ -53,9 +54,9 @@ For cuda version == 11.7:
 pip install dgl -f https://data.dgl.ai/wheels/cu117/repo.html
 ```
 
-2, Then install rest of the packages:
+2, Then install the rest of the packages:
 
-Install all required python libraries:
+Install all required Python libraries:
 ```bash
 pip install requirements.txt
 ```
@@ -108,7 +109,7 @@ NMR_prediction.train(g, features, labels, masks, model)
 
 ```
 ## Leaderboard
-Leaderboard submission [link](https://forms.gle/3YJhNEN8K3mbbx1D9)
+Leaderboard submission [link](https://forms.gle/3YJhNEN8K3mbbx1D9) We recommend using a random seed of '9721'. 
 
 | Model                                  | GlycoNMR.Sim C           | GlycoNMR.Sim C           | GlycoNMR.Exp H            | GlycoNMR.Exp H            |
 |----------------------------------------|---------------------|---------------------|---------------------|---------------------|
